@@ -4,3 +4,7 @@ Both client & server send each other basic strings every 1s via crossbeam_channe
 
 * Server: `cargo run -- -s`
 * Client: `cargo run`
+
+## Problems
+
+* Client doesn't receive server's messages except first, they don't show up until ~37s into running
